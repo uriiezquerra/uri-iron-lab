@@ -12,7 +12,7 @@ st.markdown("""
     .stButton>button { width: 100%; border-radius: 5px; height: 3em; background-color: #ff4b4b; color: white; font-weight: bold; }
     .stMetric { background-color: #1a1c23; padding: 15px; border-radius: 10px; border: 1px solid #333; }
     </style>
-    """, unsafe_allow_input=True)
+    """, unsafe_allow_html=True)
 
 # Sistema de Rangos (Solo para los que sufren)
 def calcular_rango(puntos):
